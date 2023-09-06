@@ -1,0 +1,73 @@
+.con{
+    display: block;
+
+   /* margin-left: 40px;
+gap: 100px;     */
+
+}
+.box{
+    gap: 100px;
+    margin-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.btnAdd{
+    background-color: rgb(42, 180, 222);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.to{
+    display: flex;
+    gap: 300px;
+    color: rgb(66, 62, 62);
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 30px;
+
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: lightgray;
+    border: none;
+}
+.user{
+    color: rgb(189, 187, 187);
+    text-decoration: line-through;
+}
+.false{
+    color: red;
+}
+.true{
+    color: green;
+}
+.del{
+    background-color: red;
+    border: none;
+    color: white;
+ 
+}
+.con button{
+border: none;
+width: 50px;
+height: 20px;
+}
+.show{
+    background-color: gold;
+    color: rgb(0, 0, 0);
+
+}
+.com{
+    display: block;
+    width: 85px;
+    transform: scale(2);
+         margin-top: 15px;
+       accent-color: green;
+}
